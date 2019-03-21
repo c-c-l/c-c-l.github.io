@@ -194,7 +194,7 @@ function drawChart() {
       .attr("width", (width + margin.left + margin.right))
       .attr("height", (height + margin.top + margin.bottom))
 			.append("g").attr("class", "wrapper")
-			.attr("transform", "translate(" + (width / 2 + margin.left) + "," + (height / 2 + margin.top) + ")");
+			.attr("transform", "translate(" + (width / 2 + margin.left) + "," + (height / 2 + margin.top * 2) + ")");
     const miniChart = d3.select("#explanationChart").append("svg")
         .attr("width", miniSize)
         .attr("height", miniSize)

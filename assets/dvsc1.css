@@ -20,6 +20,9 @@ svg {
 #wrapper {
   padding: 0 50px;
 }
+#chart {
+  margin: 0 auto;
+}
 p {
   font-size: 18px;
 }

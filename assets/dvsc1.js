@@ -289,12 +289,14 @@ function drawChart() {
 
 
     // Make mini chart (super hardcoded)
-    miniChart.append('path').attr('d', 'M 50 250 L 150 50 L 250 150 Z').style('stroke', '#ccc').style('fill', 'none');
-    miniChart.append('text').attr('x', 100).attr('y', 50).text('data');
-    miniChart.append('text').attr('x', 255).attr('y', 150).text('visualization');
-    miniChart.append('text').attr('x', 0).attr('y', 250).text('society');
+    miniChart.append('path').attr('d', 'M 50 250 L 150 50').style('stroke', '#f6b93b').style('fill', 'none');
+    miniChart.append('path').attr('d', 'M 150 50 L 250 150').style('stroke', '#ccc').style('fill', 'none');
+    miniChart.append('path').attr('d', 'M 250 150 L 50 250').style('stroke', '#079992').style('fill', 'none');
+    miniChart.append('text').attr('x', 100).attr('y', 50).text('data').style('fill', '#f6b93b');
+    miniChart.append('text').attr('x', 255).attr('y', 150).text('visualization').style('fill', '#079992');
+    miniChart.append('text').attr('x', 0).attr('y', 250).text('society').style('fill', '#b71540');
     let midP = getMidPoint(150,250,50,150);
-    miniChart.append('path').attr('d', 'M 50 250 L ' + midP[0] + ' ' + midP[1] + ' Z').style('stroke', '#ccc').style('fill', 'none');
+    miniChart.append('path').attr('d', 'M 50 250 L ' + midP[0] + ' ' + midP[1] + ' Z').style('stroke', '#b71540').style('fill', 'none');
     miniChart.append('line').attr('x1', 180).attr('y1', 100).attr('x2', 200).attr('y2', 100).style('stroke', '#ccc');
     miniChart.append('line').attr('x1', 200).attr('y1', 120).attr('x2', 200).attr('y2', 100).style('stroke', '#ccc');
     miniChart.append('text').attr('x', 210).attr('y', 90).text('score from 0 to 5').style('fill', '#777');

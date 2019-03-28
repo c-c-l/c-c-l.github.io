@@ -88,7 +88,6 @@ function drawChart() {
     .style("fill", function(d, i) { return colors[i]})
     .on('click', function(d) {
       goTo(d.data.name);
-      console.log(d.data.name);
     });
 
   svg

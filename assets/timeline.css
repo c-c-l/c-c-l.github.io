@@ -22,8 +22,8 @@ h2 {
 .circle-work,
 .circle-work ~ .text-position,
 .details-work .text-position {
-  color: #78e08f;
-  fill: #78e08f;
+  color: #fab1a0;
+  fill: #fab1a0;
 }
 .circle-hovered {
   fill-opacity: 0.2;

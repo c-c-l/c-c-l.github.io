@@ -1,5 +1,5 @@
 .timeline-base {
-  stroke: #343F4B;
+  stroke: #34354b;
   stroke-width: 0.2;
 }
 .circle-category {
@@ -27,7 +27,7 @@
   -webkit-transition: opacity 0.7s ease-in-out;
 }
 .text-date {
-  fill: #343F4B;
+  fill: #34354b;
   fill-opacity: 0.5;
   font-family: 'Roboto', sans-serif;
 }
@@ -39,13 +39,13 @@
   font-size: 20px;
 }
 .education-text {
-  color: #343F4B;
+  color: #34354b;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 50px;
   z-index: 1;
 }
 .focus {
-  color: #efc39d;
+  color: #ef9d9d;
   font-weight: bold;
   position: relative;
 }

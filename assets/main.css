@@ -40,7 +40,7 @@ body {
   margin: 0 auto;
 }
 .subtitle:after {
-  background-color: #e88c3c45;
+  background-color: #fab1a063;
   content: '';
   display: block;
   height: 20px;
@@ -63,12 +63,12 @@ body {
 .part-html,
 .part-js,
 .projects {
-  background-color: #343F4B;
+  background-color: #34354b;
   position: relative;
 }
 .part-css,
 .part-python {
-  background-color: #343f4ba8;
+  background-color: #39344bba;
   position: relative;
 }
 /* anchor fix */
@@ -81,7 +81,7 @@ body {
   background-color: #fff;
 }
 .education .subtitle-page {
-  color: #343f4b82;
+  color: #34354b82;
 }
 .part-html svg,
 .part-css svg,

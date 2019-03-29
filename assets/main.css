@@ -104,6 +104,9 @@ body {
 .chart-skills {
   text-align: center;
 }
+#ChartSkills g {
+  transform: translate(40%, 0%);
+}
 .text-skills {
   fill: #fff;
   fill-opacity: 0.5;

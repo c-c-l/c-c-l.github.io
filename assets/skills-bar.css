@@ -3,10 +3,13 @@
   stroke: #fff;
 }
 .label {
-  fill: #343F4B;
+  fill: #34354b;
   fill-opacity: 0.7;
   font-family: 'Roboto', serif;
   font-size: 24px;
+}
+g.tick {
+  opacity: 0;
 }
 .ticks-label {
   fill: #fff;
@@ -56,6 +59,10 @@
   content: '';
   display: block;
   height: 4px;
+}
+.link-in:hover {
+  color: #fff;
+  text-decoration: none;
 }
 .link-in:hover:after {
   background-color: #fff;

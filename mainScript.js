@@ -20,8 +20,8 @@ function drawChart() {
   const width = 400
   const height = 400
 
-  const svg = d3.select('#ChartSkills').append('svg').attr('width', '100%').attr('height', height + 100).append('g').attr('id', 'treemap').style('transform', 'translate(40%, 0)');
-  const svgP = d3.select('#ChartSkills svg').append('g').attr('id', 'elements').style('transform', 'translate(40%, 0%)');
+  const svg = d3.select('#ChartSkills').append('svg').attr('width', '100%').attr('height', height + 100).append('g').attr('id', 'treemap');
+  const svgP = d3.select('#ChartSkills svg').append('g').attr('id', 'elements');
 
   // FUNCTIONS
   function appendText(arr, category, line) {

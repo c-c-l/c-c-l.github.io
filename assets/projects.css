@@ -2,16 +2,17 @@
   margin: 0 auto;
 }
 .grid-wrap {
-  display: flex;
-  flex-direction: ltr;
-  flex-wrap: wrap;
-  margin: 80px 0;
+  /* display: flex; */
+  /* flex-direction: ltr; */
+  /* flex-wrap: wrap; */
+  margin: 60px 20px 80px 0;
   text-align: center;
 }
 .project {
   background-color: #fff;
   border-radius: 8px;
-  flex: auto;
+  /* flex: auto; */
+  margin-top: 20px;
   padding: 20px 10px 20px 10px;
 }
 .project img {
@@ -19,11 +20,9 @@
   object-fit: cover;
   width: 220px;
 }
-.project.second {
-  margin: 0 60px;
-}
-.project.last {
-  margin-right: 20px;
+.project.second,
+.project.first {
+  margin-right: 20px
 }
 .project-title:before {
   background-color: #47525E;

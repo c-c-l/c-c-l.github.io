@@ -38,8 +38,11 @@ function drawChartBar(dataset, id) {
   const width = 800
   const height = 400
   const identifier = id.replace('chart', '');
+  const containerw = document.getElementById(id).getBoundingClientRect().width;
 
-  const svgWrapper = d3.select('#' + id).append('svg').attr('width', '100%').attr('height', height);
+  console.log(containerw)
+
+  const svgWrapper = d3.select('#' + id).append('svg').attr('width', '100%').attr('height', height).attr('viewBox', '0 0 '+ containerw +' '+ height );
   const plot = svgWrapper.append('g').attr('id', 'plot' + identifier);
 
   const x = d3.scaleLinear();
